@@ -1,0 +1,165 @@
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#ff9234"
+    android:layout_gravity="start"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.github.siyamed.shapeimageview.RoundedImageView
+        app:siRadius="6dp"
+        android:id="@+id/IV_ThumbnailNowPlaying"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/at"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        >
+
+        <TextView
+            android:id="@+id/TV_TitleNowPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At Eighteen"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/kanit_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/TV_MinNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="106 Menit"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="  -  "/>
+
+            <TextView
+                android:id="@+id/TV_GenreNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Crime | Romance"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Distributor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_DirecturNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="SBS"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Pemeran"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_StarsNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Ji chang wook"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Tayang"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_PlayNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="09 Januari 2020"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

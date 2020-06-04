@@ -1,0 +1,165 @@
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#ff9234"
+    android:layout_gravity="start"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.github.siyamed.shapeimageview.RoundedImageView
+        app:siRadius="6dp"
+        android:id="@+id/IV_ThumbnailAllMovie"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/the_lagend_of_the_blue_sea"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        >
+
+        <TextView
+            android:id="@+id/TV_TitleAllMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Leagend of The blue sea"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/kanit_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/TV_MinAllMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="80 Menit"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="  -  "/>
+
+            <TextView
+                android:id="@+id/TV_GenreAllMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="mystery | Romance"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Distributor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_DirecturAllMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="SBS"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Pemeran"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_StarsAllMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Jun Ji-hyun, Lee Min Ho"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Tayang"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_PlayAllMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="16 November 2016"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

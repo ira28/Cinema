@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Asistensi1Dan2Tahap1</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="simple_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="title_now_playing">Now Playing</string>
+    <string name="title_upcoming">Upcoming</string>
+    <string name="title_profile">Profile</string>
+    <string name="content">This is a another waste of time by an @idiot.
+        Made for tutorial video on 19th of March 2018. I am a UI-UX full stack Designer and Developer.
+        I Usually Build Web Apps and I am New in Android but I will Master it Soon.</string>
+
+    <string name="synopsisTrollsWorldTour">
+        Drama Korea Crash Landing on You menceritakan kisah seorang wanita asal Korea Selatan bernama Yoon Se Ri yang diperankan oleh Son Ye Jin. Yoon Se Ri ditunjuk sebagai penerus perusahaan keluarganya, meski orangtuanya memiliki dua anak pria. Namun, satu hari menjelang pengumuman direktur perusahaan, Yoon Se Ri mengalami kecelakaan. Kecelakaan itu didapat Yoon Se Ri saat dirinya menaiki paralayang dan terhempas badai. Tanpa disangka, badai itu membawa Yoon Se Ri ke Korea Utara. Ia pertama kali diselamatkan oleh seorang tentara Korea Utara bernama Ri Jeong Hyeok, yang diperankan oleh Hyun Bin. Dari pertemuan itu, Yoon Se Ri dan Ri Jeong Hyeok menjadi dekat.
+
+    </string>
+</resources>
